@@ -144,6 +144,17 @@ body {
   height: 100%; }
 
 body {
-  background-color: #e2e1e0;
+  background-color: #fff;
   color: #3a3e43;
   font-size: 1rem; }
+
+.home-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #f2f2f2; }
+  .home-header nav ul {
+    display: flex; }
+    .home-header nav ul li {
+      margin-right: 40px; }
