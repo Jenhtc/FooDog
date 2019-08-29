@@ -1,20 +1,17 @@
 // RESET BROWSER
-@import "reset";
-// STYLES SECTIONS MICHAEL
-@import "mica";
-// IMPORT GOOGLE FONTS (Crimson + Open Sans)
+@import "reset"; // STYLES SECTIONS MICHAEL
+@import "mica"; // IMPORT GOOGLE FONTS (Crimson + Open Sans)
 /*
 | font-family: 'Crimson Text', serif;
 | font-family: 'Open Sans', sans-serif;
 */
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Open+Sans:400,700&display=swap");
-// IMPORT WEB FONTS (Flaticon)
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Open+Sans:400,700&display=swap"); // IMPORT WEB FONTS (Flaticon)
 /*
 *  VARIABLES
 */
-$first-color: #3a3e43;
-$second-color: #303336;
-$third-color: #f08b68;
+$first-color: #3a3e43; // gris clair
+$second-color: #303336; // gris foncé
+$third-color: #f08b68; // orange
 /*
 *  START CSS
 * => @import master.scss
