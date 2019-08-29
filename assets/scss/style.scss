@@ -1,0 +1,34 @@
+// RESET BROWSER
+@import "reset";
+
+// IMPORT GOOGLE FONTS (Crimson + Open Sans)
+/*
+| font-family: 'Crimson Text', serif;
+| font-family: 'Open Sans', sans-serif;
+*/
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Open+Sans:400,700&display=swap");
+
+// IMPORT WEB FONTS (Flaticon)
+
+/*
+*  VARIABLES
+*/
+$first-color: #3a3e43;
+$second-color: #303336;
+$third-color: #f08b68;
+
+/*
+*  START CSS
+* => @import master.scss
+*/
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #e2e1e0;
+  color: $first-color;
+  font-size: 1rem;
+}
