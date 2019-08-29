@@ -26,4 +26,4 @@ Réaliser l'intégration d'un blog qui parle d'alimentation pour chiens, compos�
 
 ## Convention des variables
 
-> .page-section-component
+> .page_section_component

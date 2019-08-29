@@ -215,6 +215,38 @@ body {
         .home-header nav ul li a {
           color: #3a3e43; }
 
+.home-sec-section {
+  color: #303336;
+  line-height: 1.5; }
+  .home-sec-section .no-paddings {
+    padding: 0; }
+  .home-sec-section .no-padding-right {
+    padding-right: 0; }
+  .home-sec-section h4, .home-sec-section h3, .home-sec-section h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px; }
+  .home-sec-section h2 {
+    padding-top: 20px;
+    font-size: 20px; }
+  .home-sec-section h4 {
+    color: #f08b68;
+    font-size: 13px;
+    letter-spacing: -1px;
+    word-spacing: 15px; }
+  .home-sec-section div.barre-de-fer {
+    color: #3a3e43;
+    font-family: 'Crimson Text', serif;
+    font-size: 13px; }
+  .home-sec-section p {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    color: #3a3e43;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; }
+
 .search-box {
   position: absolute;
   right: 0;

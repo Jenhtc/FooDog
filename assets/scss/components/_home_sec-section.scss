@@ -1,0 +1,40 @@
+.home-sec-section{
+  color: $second-color;
+  line-height: 1.5;
+  
+  .no-paddings{
+    padding: 0;
+  }
+  .no-padding-right{
+    padding-right: 0;
+  }
+  h4, h3, h2{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight:800;
+    font-size: 14px;
+  }
+  h2{
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  h4{
+    color: $third-color;
+    font-size: 13px;
+    letter-spacing: -1px;
+    word-spacing: 15px;
+  }
+  div.barre-de-fer{
+    color: $first-color;
+    font-family: 'Crimson Text', serif;
+    font-size: 13px;
+  }
+  p{
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+    color: $first-color;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+}
