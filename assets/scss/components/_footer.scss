@@ -1,7 +1,8 @@
-.footers{
+.upfooters{
     background-color: $first-color;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-content: flex-start;
     color: white;
     a{
         text-decoration: none;
@@ -14,4 +15,6 @@
 
 .backfooters{
     background-color: $second-color;
+    flex-direction: row;
+    text-align: right;
 }

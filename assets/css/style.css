@@ -135,21 +135,24 @@ table {
 *  VARIABLES
 */
 /* Global componnent */
-.footers {
+.upfooters {
   background-color: #3a3e43;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  align-content: flex-start;
   color: white; }
-  .footers a {
+  .upfooters a {
     text-decoration: none;
     color: white; }
-    .footers a:hover {
+    .upfooters a:hover {
       text-decoration: none; }
-  .footers h2 {
+  .upfooters h2 {
     color: gray; }
 
 .backfooters {
-  background-color: #303336; }
+  background-color: #303336;
+  flex-direction: row;
+  text-align: right; }
 
 /*
 *  START CSS
