@@ -138,8 +138,8 @@ table {
 *  START CSS
 * => @import master.scss
 */
-html,
-body {
+body,
+html {
   width: 100%;
   height: 100%; }
 
