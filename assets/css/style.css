@@ -154,7 +154,16 @@ body {
   align-items: center;
   position: relative;
   border-bottom: 1px solid #f2f2f2; }
-  .home-header nav ul {
-    display: flex; }
-    .home-header nav ul li {
-      margin-right: 40px; }
+  .home-header nav {
+    margin-bottom: 25px; }
+    .home-header nav ul {
+      display: flex; }
+      .home-header nav ul li {
+        margin-right: 40px; }
+        .home-header nav ul li a {
+          color: #3a3e43; }
+
+.search-box {
+  position: absolute;
+  right: 0;
+  top: 0; }
