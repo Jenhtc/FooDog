@@ -28,7 +28,11 @@ body {
 }
 
 body {
-  background-color: #e2e1e0;
+  background-color: #fff;
   color: $first-color;
   font-size: 1rem;
 }
+
+// Layouts
+@import "./layouts/index";
+@import "./layouts/article";
