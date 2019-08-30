@@ -46,14 +46,33 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  a{
+    display: flex;
+    align-items: center;
+  }
   .boutonShare{
+    width: 30px;
+    height: 30px;
     padding: 8px;
     background-color: white;
     border-radius: 50%;
-    font-size: 15px;
-    margin-right: 5px;
-    color: black;
+    display: inline-block;
     border: 1px solid #c1c1c1;
     text-decoration: none;
+  }
+  i{
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid #c1c1c1;
+    text-decoration: none;
+    &:before {
+      font-size: 15px;
+      margin-left: 0;
+      color: black;
+    }
   }
 }
