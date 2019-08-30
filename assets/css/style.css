@@ -216,25 +216,33 @@ body {
           color: #3a3e43; }
 
 .home-sec-section {
-  color: #303336;
+  color: #3a3e43;
   line-height: 1.5; }
+  .home-sec-section h1 {
+    background-image: url("../../assets/images/h1-bg-img.png"); }
+  .home-sec-section small {
+    color: #303336;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: white;
+    padding-right: 15px; }
   .home-sec-section .no-paddings {
     padding: 0; }
   .home-sec-section .no-padding-right {
     padding-right: 0; }
   .home-sec-section h4, .home-sec-section h3, .home-sec-section h2 {
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight: 800;
+    font-weight: bold;
     font-size: 14px; }
   .home-sec-section h2 {
     padding-top: 20px;
     font-size: 20px; }
-  .home-sec-section h4 {
+  .home-sec-section h3 {
     color: #f08b68;
     font-size: 13px;
     letter-spacing: -1px;
-    word-spacing: 15px; }
+    word-spacing: 1em; }
   .home-sec-section div.barre-de-fer {
     color: #3a3e43;
     font-family: 'Crimson Text', serif;

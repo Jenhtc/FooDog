@@ -1,7 +1,17 @@
 .home-sec-section{
-  color: $second-color;
+  color: $first-color;
   line-height: 1.5;
-  
+  h1{
+    background-image: url("../../assets/images/h1-bg-img.png");
+  }
+  small{
+    color: $second-color;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size: 13px;
+    background-color: white;
+    padding-right: 15px;
+  }
   .no-paddings{
     padding: 0;
   }
@@ -10,19 +20,18 @@
   }
   h4, h3, h2{
     font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    font-weight:800;
+    font-weight:bold;
     font-size: 14px;
   }
   h2{
     padding-top: 20px;
     font-size: 20px;
   }
-  h4{
+  h3{
     color: $third-color;
     font-size: 13px;
     letter-spacing: -1px;
-    word-spacing: 15px;
+    word-spacing: 1em;
   }
   div.barre-de-fer{
     color: $first-color;
