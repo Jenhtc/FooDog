@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Open+Sans:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Open+Sans:400,700,800&display=swap");
 html,
 body,
 div,
@@ -214,6 +214,55 @@ body {
         margin-right: 40px; }
         .home-header nav ul li a {
           color: #3a3e43; }
+
+.home-prem-sect {
+  height: 100%;
+  margin-top: 1.5rem; }
+  .home-prem-sect .bloc-gauche {
+    width: 100%;
+    overflow: hidden;
+    max-height: 590px;
+    padding-right: 1.6rem; }
+  .home-prem-sect .bloc-droite {
+    padding: 0 0.5rem; }
+    .home-prem-sect .bloc-droite row {
+      max-height: 50%; }
+  .home-prem-sect .col-12 .bloc-droite-carre {
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
+    margin-left: 0;
+    margin-right: 0; }
+    .home-prem-sect .col-12 .bloc-droite-carre img .square {
+      width: 12rem !important;
+      height: 12rem !important; }
+  .home-prem-sect h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+    padding-bottom: 1.5rem; }
+  .home-prem-sect h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.4rem; }
+  .home-prem-sect h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.8px;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    font-size: 12px;
+    color: #f08b68; }
+  .home-prem-sect img {
+    width: 100%; }
 
 .search-box {
   position: absolute;
