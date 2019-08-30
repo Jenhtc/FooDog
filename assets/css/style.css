@@ -197,7 +197,8 @@ footer {
   background-color: #3a3e43;
   display: flex;
   flex-direction: row;
-  color: white; }
+  color: white;
+  padding-bottom: 10%; }
   .upfooters a {
     vertical-align: top;
     text-decoration: none;
@@ -222,7 +223,7 @@ footer {
   letter-spacing: -1x; }
   .catagories li {
     border-bottom: 1px solid gray;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     padding-top: 10px; }
 
 .popupost {
@@ -234,8 +235,15 @@ footer {
     padding-bottom: 15px; }
     .popupost li a img {
       margin-right: 10px;
-      width: 50px;
-      height: 50px; }
+      width: 80px;
+      height: 60px; }
+
+.instagram {
+  padding-top: 10px; }
+  .instagram img {
+    margin: 2px;
+    width: 80px;
+    height: 80px; }
 
 /*
 *  START CSS
