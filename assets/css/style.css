@@ -135,24 +135,48 @@ table {
 *  VARIABLES
 */
 /* Global componnent */
+footer {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold; }
+
 .upfooters {
+  padding-top: 60px;
+  text-align: left;
   background-color: #3a3e43;
   display: flex;
   flex-direction: row;
-  align-content: flex-start;
   color: white; }
   .upfooters a {
     text-decoration: none;
     color: white; }
     .upfooters a:hover {
-      text-decoration: none; }
-  .upfooters h2 {
-    color: gray; }
+      text-decoration: none;
+      color: orangered; }
+  .upfooters h4 {
+    text-indent: 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: lightgrey; }
 
 .backfooters {
   background-color: #303336;
   flex-direction: row;
   text-align: right; }
+
+.catagories {
+  font-size: 11px;
+  letter-spacing: -1x; }
+  .catagories li {
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+    padding-top: 10px; }
+
+.popupost {
+  font-size: 12px;
+  letter-spacing: -1x;
+  text-transform: capitalize; }
+  .popupost a img {
+    float: right; }
 
 /*
 *  START CSS
