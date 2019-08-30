@@ -227,8 +227,8 @@ body {
     font-size: 13px;
     background-color: white;
     padding-right: 15px; }
-  .home-sec-section .no-paddings {
-    padding: 0; }
+  .home-sec-section .top-margin {
+    margin-top: 30px; }
   .home-sec-section .no-padding-right {
     padding-right: 0; }
   .home-sec-section h4, .home-sec-section h3, .home-sec-section h2 {
@@ -236,24 +236,24 @@ body {
     font-weight: bold;
     font-size: 14px; }
   .home-sec-section h2 {
-    padding-top: 20px;
-    font-size: 20px; }
+    padding-top: 10px;
+    font-size: 19px; }
   .home-sec-section h3 {
     color: #f08b68;
     font-size: 13px;
     letter-spacing: -1px;
-    word-spacing: 1em; }
+    word-spacing: 1em;
+    margin-right: 15px; }
   .home-sec-section div.barre-de-fer {
     color: #3a3e43;
     font-family: 'Crimson Text', serif;
     font-size: 13px; }
   .home-sec-section p {
     font-family: 'Crimson Text', serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #3a3e43;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px; }
+    padding-top: 15px;
+    padding-bottom: 15px; }
 
 .search-box {
   position: absolute;

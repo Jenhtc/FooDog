@@ -12,8 +12,8 @@
     background-color: white;
     padding-right: 15px;
   }
-  .no-paddings{
-    padding: 0;
+  .top-margin{
+    margin-top: 30px;
   }
   .no-padding-right{
     padding-right: 0;
@@ -24,14 +24,15 @@
     font-size: 14px;
   }
   h2{
-    padding-top: 20px;
-    font-size: 20px;
+    padding-top: 10px;
+    font-size: 19px;
   }
   h3{
     color: $third-color;
     font-size: 13px;
     letter-spacing: -1px;
     word-spacing: 1em;
+    margin-right: 15px;
   }
   div.barre-de-fer{
     color: $first-color;
@@ -40,10 +41,9 @@
   }
   p{
     font-family: 'Crimson Text', serif;
-    font-size: 18px;
+    font-size: 16px;
     color: $first-color;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }
