@@ -17,10 +17,93 @@
   </head>
 
   <body>
-    <div class="container">
-      <header>
-        <div class="logo"></div>
+    <div class="container-fluid px-0">
+      <!-- HEADER -->
+      <header class="article-header">
+        <div class="top-menu">
+          <div class="left">
+            <div id="icon-menu" class="menu">
+              <span class="icon flaticon-reorder-option"></span>
+            </div>
+            <div class="logo">
+              <img src="assets/images/logo.jpeg" alt="Logo Foodog" />
+            </div>
+          </div>
+          <div class="signup">
+            <p>Digest In Your Inbox</p>
+            <form action="" method="post">
+              <input class="email" type="text" placeholder="YOUR EMAIL" />
+              <input class="btn" type="button" value="SIGN UP" />
+            </form>
+          </div>
+          <div class="right">
+            <div class="author">
+              <img src="./upload/author.png" alt="Auteur" />
+            </div>
+            <div class="search-box">
+              <div class="icon flaticon-magnifying-glass">
+                <input
+                  type="text"
+                  placeholder="Recherche..."
+                  name="search-box"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="">NUTRITION</a></li>
+            <li><a href="">WELLNESS</a></li>
+            <li><a href="">LIFESTYLE</a></li>
+            <li><a href="">COMMUNITY</a></li>
+          </ul>
+        </nav>
       </header>
+
+      <!-- ARTICLE -->
+      <div class="article-content">
+        <div class="row no-gutters">
+          <div class="col content">
+            <div class="tag">NUTRITION</div>
+            <h1>The 11 dog food label tricks every owner needs to know</h1>
+            <div class="thumb">
+              <img src="/upload/dog-blanket.jpg" alt="Thumbnail Article" />
+            </div>
+            <div class="author-share">
+              <div class="author">
+                <img src="./upload/author.png" alt="Auteur" />
+                <p>by : <span class="name">The Farmer's dog</span></p>
+              </div>
+              <div class="right">
+                <div class="comment">
+                  <i class="flaticon-comment-black-oval-bubble-shape"></i>
+                  <p>COMMENT</p>
+                </div>
+                <p class="share">SHARE</p>
+                <div class="social">
+                  <a class="icon fb flaticon-facebook-logo" href=""></a>
+                  <a class="icon tw flaticon-twitter" href=""></a>
+                  <a class="icon pi flaticon-pinterest" href=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col sidebar px-0">
+            <p>FOLLOW US</p>
+            <div class="social">
+              <a class="icon flaticon-twitter" href=""></a>
+              <a class="icon flaticon-facebook-logo" href=""></a>
+              <a class="icon flaticon-instagram" href=""></a>
+              <a class="icon flaticon-pinterest" href=""></a>
+            </div>
+            <div class="ads">
+              <img src="/upload/ads.png" alt="Ads 1" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="scripts">
@@ -39,6 +122,8 @@
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"
       ></script>
+
+      <script src="./assets/js/app.js"></script>
     </div>
   </body>
 </html>
