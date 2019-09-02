@@ -278,9 +278,48 @@ body {
       font-size: 15px;
       margin-left: 0;
       color: black; }
+  .home-sec-section i.sideBar {
+    width: 100%;
+    border-radius: 0;
+    justify-content: flex-start;
+    background-color: blue;
+    border: 0;
+    padding-left: 10px;
+    color: white; }
+    .home-sec-section i.sideBar:before {
+      color: white; }
+  .home-sec-section .facebook {
+    background-color: blue;
+    color: white;
+    padding-right: 10px; }
+  .home-sec-section li {
+    width: 36px;
+    height: 36px;
+    margin: 10px; }
+    .home-sec-section li a {
+      padding: 0;
+      margin: 0;
+      font-size: 15px;
+      font-family: 'Open Sans', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      border: 1px solid #303336;
+      border-radius: 50% !important;
+      color: #3a3e43; }
+      .home-sec-section li a:hover {
+        border: 1px solid #303336; }
+    .home-sec-section li a.active {
+      background-color: #3a3e43;
+      color: white; }
   .home-sec-section hr {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem; }
+  .home-sec-section nav {
+    margin-top: 4rem; }
 
 .search-box {
   position: absolute;
