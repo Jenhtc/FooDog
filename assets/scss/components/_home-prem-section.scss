@@ -5,7 +5,8 @@
     width: 100%;
     overflow: hidden;
     max-height: 590px;
-    padding-right: 1.6rem;
+    padding: 0;
+    margin: 0 0 10px 0;
   }
   .bloc-droite {
     padding: 0 0.5rem;
@@ -16,10 +17,8 @@
 
   .col-12 {
     .bloc-droite-carre {
-      padding-left: 0.6rem !important;
-      padding-right: 0.6rem !important;
-      margin-left: 0;
-      margin-right: 0;
+      padding-left: 0.3rem !important;
+      padding-right: 0.3rem !important;
       img {
         .square {
           width: 12rem !important;
@@ -44,7 +43,7 @@
     text-align: left;
     padding-bottom: 1.5rem;
     padding-top: 1rem;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     line-height: 1.4rem;
   }
   h3 {
@@ -59,5 +58,16 @@
   }
   img {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bloc-gauche {
+    padding-right: 1.6rem !important;
+    margin: 0;
+  }
+  .home-prem-sect .col-12 .bloc-droite-carre {
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important;
   }
 }
