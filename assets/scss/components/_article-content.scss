@@ -1,3 +1,7 @@
+$fb-color: #899dce;
+$tw-color: #60d2f5;
+$pi-color: #f74c53;
+
 .article-content {
   max-width: 745px;
   width: 100%;
@@ -21,6 +25,7 @@
 
     h1 {
       font-weight: bold;
+      line-height: 1.4rem;
       color: $first-color;
       font-size: 1.2rem;
       text-transform: uppercase;
@@ -30,6 +35,11 @@
 
     .thumb {
       max-width: 500px;
+      max-height: 500px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+
       img {
         width: 100%;
       }
@@ -41,6 +51,7 @@
       align-items: center;
       display: flex;
       justify-content: space-between;
+      margin-bottom: 35px;
 
       .author {
         height: 100%;
@@ -68,31 +79,6 @@
         display: flex;
         align-items: center;
 
-        .comment {
-          cursor: pointer;
-          display: flex;
-          align-items: center;
-          background-color: $first-color;
-          color: #fff;
-          padding: 5px 10px;
-          border-radius: 5px;
-          font-size: 0.5rem;
-          font-weight: bold;
-          margin-right: 9px;
-          transition: all 0.2s linear;
-
-          i:before {
-            font-size: 0.8rem;
-            margin-right: 7px;
-          }
-
-          &:hover {
-            background-color: #fff;
-            border: 1px solid #3a3e43;
-            color: #3a3e43;
-          }
-        }
-
         .share {
           color: #000;
           font-size: 9px;
@@ -117,33 +103,314 @@
             }
           }
           .fb {
-            background-color: #899dce;
+            background-color: $fb-color;
             &:hover {
               background-color: #fff;
             }
             &:hover::before {
-              color: #899dce;
+              color: $fb-color;
             }
           }
           .tw {
-            background-color: #60d2f5;
+            background-color: $tw-color;
             &:hover {
               background-color: #fff;
             }
             &:hover::before {
-              color: #60d2f5;
+              color: $tw-color;
             }
           }
           .pi {
-            background-color: #f74c53;
+            background-color: $pi-color;
             &:hover {
               background-color: #fff;
             }
             &:hover::before {
-              color: #f74c53;
+              color: $pi-color;
             }
           }
         }
+      }
+    }
+
+    article {
+      font-family: "Crimson Text", serif;
+      font-size: 14px;
+
+      p {
+        margin-bottom: 25px;
+        line-height: 20px;
+
+        .line {
+          border-bottom: 2px solid $third-color;
+        }
+      }
+
+      h2 {
+        margin-bottom: 20px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: bold;
+      }
+
+      em {
+        font-style: italic;
+      }
+    }
+
+    .article-share {
+      margin-top: 35px;
+      margin-bottom: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 22px;
+      font-size: 10px;
+
+      .share-label {
+        margin-right: 8px;
+      }
+
+      .fb {
+        background-color: $fb-color;
+        border: 1px solid $fb-color;
+        color: #fff;
+        &:hover {
+          background-color: #fff;
+          border: 1px solid $fb-color;
+          color: $fb-color;
+        }
+      }
+
+      .tw {
+        background-color: $tw-color;
+        border: 1px solid $tw-color;
+        color: #fff;
+        &:hover {
+          background-color: #fff;
+          border: 1px solid $tw-color;
+          color: $tw-color;
+        }
+      }
+
+      .pi {
+        background-color: $pi-color;
+        border: 1px solid $pi-color;
+        color: #fff;
+        &:hover {
+          background-color: #fff;
+          border: 1px solid $pi-color;
+          color: $pi-color;
+        }
+      }
+    }
+
+    .newsletter {
+      margin-bottom: 35px;
+      h1 {
+        text-transform: initial;
+        font-weight: normal;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-size: 0.55rem;
+        text-align: center;
+      }
+
+      form {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        height: 30px;
+
+        .email {
+          border: 1px solid #ccc;
+          max-width: 225px;
+          padding: 0 3px 3px 3px;
+
+          &::placeholder {
+            font-size: 10px;
+            color: #000;
+            padding: 0 6px;
+          }
+        }
+
+        .btn {
+          background-color: $third-color;
+          border: 1px solid $third-color;
+          border-radius: 0;
+          color: #fff;
+          font-size: 10px;
+          text-transform: uppercase;
+          font-weight: bold;
+          padding: 0 30px;
+          transition: all 0.4s linear;
+
+          &:hover {
+            background-color: #fff;
+            border: 1px solid $second-color;
+            color: $second-color;
+          }
+        }
+      }
+    }
+
+    .prev-next {
+      display: flex;
+      margin-bottom: 50px;
+
+      a {
+        &:nth-child(2) {
+          border-left: 1px solid rgb(243, 243, 243);
+        }
+
+        &:hover {
+          text-decoration: none;
+          .title {
+            color: $third-color;
+          }
+        }
+      }
+
+      .prev,
+      .next {
+        color: #bebebe;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.7rem;
+        margin-bottom: 25px;
+      }
+
+      .prev .arrow {
+        margin-right: 9px;
+      }
+
+      .next {
+        text-align: end;
+        .arrow {
+          margin-left: 9px;
+        }
+      }
+
+      .title {
+        transition: all 0.4s linear;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.85rem;
+        text-align: justify;
+        color: $first-color;
+      }
+    }
+
+    .author-info {
+      margin-bottom: 42px;
+
+      img {
+        float: left;
+        padding-right: 20px;
+        padding-bottom: 10px;
+
+        width: 66px;
+      }
+
+      .name {
+        color: #000;
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #b3b3b3;
+        font-size: 0.75rem;
+        line-height: 18px;
+      }
+    }
+
+    .related {
+      margin-bottom: 78px;
+
+      h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #000;
+        font-size: 0.6rem;
+        margin-bottom: 26px;
+      }
+
+      .article {
+        padding: 0 13px 0 0;
+        color: $first-color;
+
+        &:last-child {
+          padding-right: 0;
+        }
+
+        img {
+          width: 100%;
+          max-height: 140px;
+          margin-bottom: 15px;
+        }
+
+        .title {
+          font-weight: bold;
+          font-size: 0.6rem;
+          line-height: 1rem;
+          text-transform: uppercase;
+          text-align: justify;
+          transition: color 0.4s linear;
+        }
+
+        &:hover {
+          text-decoration: none;
+
+          .title {
+            color: $third-color;
+          }
+        }
+      }
+    }
+
+    .responses {
+      margin-bottom: 60px;
+
+      h2 {
+        color: #000;
+        margin-bottom: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+      }
+
+      input,
+      textarea {
+        border: 0;
+        transition: border 0.2s linear;
+        &::placeholder {
+          font-size: 0.7rem;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+
+      textarea {
+        padding: 6px;
+        margin-bottom: 30px;
+      }
+
+      input {
+        padding: 0 6px;
+      }
+
+      .submit-btn {
+        margin-top: 35px;
+        background-color: #000;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.6rem;
+        padding: 11px 14px;
       }
     }
   }
@@ -189,5 +456,34 @@
         }
       }
     }
+  }
+}
+
+// BOUTON WITH ICON & TEXT
+.btn-txt {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.5rem;
+  font-weight: bold;
+  margin-right: 9px;
+  transition: all 0.2s linear;
+
+  background-color: $first-color;
+  border: 1px solid $first-color;
+  color: #fff;
+
+  i:before {
+    font-size: 0.8rem;
+    margin-right: 7px;
+  }
+
+  &:hover {
+    background-color: #fff;
+    border: 1px solid $first-color;
+    color: $first-color;
+    text-decoration: none;
   }
 }
