@@ -271,6 +271,142 @@ body {
     padding-left: 0.6rem !important;
     padding-right: 0.6rem !important; } }
 
+.home-sec-section {
+  color: #3a3e43;
+  line-height: 1.5; }
+  .home-sec-section h1 {
+    background-image: url("../../assets/images/h1-bg-img.png"); }
+  .home-sec-section small {
+    color: #303336;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: white;
+    padding-right: 15px; }
+  .home-sec-section .top-margin {
+    margin-top: 30px; }
+  .home-sec-section .title-margin {
+    margin-top: 15px; }
+  .home-sec-section .no-padding-right {
+    padding-right: 0; }
+  .home-sec-section h4, .home-sec-section h3, .home-sec-section h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 14px; }
+  .home-sec-section h2 {
+    padding-top: 10px;
+    font-size: 19px; }
+  .home-sec-section h3 {
+    color: #f08b68;
+    font-size: 13px;
+    letter-spacing: -1px;
+    word-spacing: 1em;
+    margin-right: 15px; }
+  .home-sec-section div.barre-de-fer {
+    color: #3a3e43;
+    font-family: 'Crimson Text', serif;
+    font-size: 13px; }
+  .home-sec-section p {
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+    color: #3a3e43;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .home-sec-section i {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+    border-radius: 50%;
+    border: 1px solid #c1c1c1;
+    text-decoration: none; }
+    .home-sec-section i:before {
+      font-size: 15px;
+      margin-left: 0;
+      color: black; }
+  .home-sec-section .sideBar-socialNetwork {
+    margin-top: 90px;
+    margin-bottom: 90px; }
+    .home-sec-section .sideBar-socialNetwork a.social-media {
+      color: white;
+      padding-right: 10px; }
+    .home-sec-section .sideBar-socialNetwork a.facebook {
+      background-color: #8c92cf; }
+    .home-sec-section .sideBar-socialNetwork a.twitter {
+      background-color: #50d0f7; }
+    .home-sec-section .sideBar-socialNetwork a.instagram {
+      background-color: #6f96bf; }
+    .home-sec-section .sideBar-socialNetwork a {
+      margin-bottom: 2px;
+      display: flex;
+      align-items: center;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      text-decoration: none;
+      color: grey; }
+      .home-sec-section .sideBar-socialNetwork a i {
+        height: 45px;
+        border-radius: 0;
+        justify-content: flex-start;
+        border: 0;
+        padding-left: 10px;
+        color: white; }
+        .home-sec-section .sideBar-socialNetwork a i:before {
+          color: white;
+          font-size: 16px; }
+      .home-sec-section .sideBar-socialNetwork a span {
+        width: 50%;
+        text-transform: capitalize; }
+      .home-sec-section .sideBar-socialNetwork a .follow-us {
+        text-transform: uppercase;
+        text-align: right;
+        font-weight: 800;
+        width: 50%; }
+  .home-sec-section a {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: grey; }
+    .home-sec-section a .facebook {
+      background-color: #8c92cf; }
+  .home-sec-section li {
+    width: 36px;
+    height: 36px;
+    margin: 10px; }
+    .home-sec-section li a {
+      padding: 0;
+      margin: 0;
+      font-size: 15px;
+      font-family: 'Open Sans', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      border: 1px solid #303336;
+      border-radius: 50% !important;
+      color: #3a3e43; }
+      .home-sec-section li a:hover {
+        border: 1px solid #303336; }
+    .home-sec-section li a.active {
+      background-color: #3a3e43;
+      color: white; }
+  .home-sec-section hr {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem; }
+  .home-sec-section nav {
+    margin-top: 4rem; }
+  .home-sec-section .resize-img {
+    max-height: 230px;
+    display: flex;
+    align-items: center;
+    overflow: hidden; }
+
 .search-box {
   position: absolute;
   right: 0;

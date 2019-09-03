@@ -164,4 +164,10 @@
   nav{
     margin-top: 4rem;
   }
+  .resize-img{
+    max-height: 230px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
 }
