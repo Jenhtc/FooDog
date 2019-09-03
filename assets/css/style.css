@@ -283,16 +283,15 @@ body {
     width: 100%;
     overflow: hidden;
     max-height: 590px;
-    padding-right: 1.6rem; }
+    padding: 0;
+    margin: 0 0 10px 0; }
   .home-prem-sect .bloc-droite {
     padding: 0 0.5rem; }
     .home-prem-sect .bloc-droite row {
       max-height: 50%; }
   .home-prem-sect .col-12 .bloc-droite-carre {
-    padding-left: 0.6rem !important;
-    padding-right: 0.6rem !important;
-    margin-left: 0;
-    margin-right: 0; }
+    padding-left: 0.3rem !important;
+    padding-right: 0.3rem !important; }
     .home-prem-sect .col-12 .bloc-droite-carre img .square {
       width: 12rem !important;
       height: 12rem !important; }
@@ -311,7 +310,7 @@ body {
     text-align: left;
     padding-bottom: 1.5rem;
     padding-top: 1rem;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     line-height: 1.4rem; }
   .home-prem-sect h3 {
     font-family: "Open Sans", sans-serif;
@@ -324,6 +323,14 @@ body {
     color: #f08b68; }
   .home-prem-sect img {
     width: 100%; }
+
+@media screen and (min-width: 768px) {
+  .bloc-gauche {
+    padding-right: 1.6rem !important;
+    margin: 0; }
+  .home-prem-sect .col-12 .bloc-droite-carre {
+    padding-left: 0.6rem !important;
+    padding-right: 0.6rem !important; } }
 
 .search-box {
   position: absolute;
