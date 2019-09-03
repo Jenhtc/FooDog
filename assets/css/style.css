@@ -198,7 +198,7 @@ footer {
   display: flex;
   flex-direction: row;
   color: white;
-  padding-bottom: 10%; }
+  padding-bottom: 5%; }
   .upfooters a {
     vertical-align: top;
     text-decoration: none;
@@ -209,6 +209,7 @@ footer {
   .upfooters h4 {
     text-indent: 16px;
     font-size: 12px;
+    font-weight: bolder;
     text-transform: uppercase;
     color: lightgrey; }
 
@@ -217,26 +218,43 @@ footer {
   flex-direction: row;
   text-align: right;
   height: 100px; }
+  .backfooters a {
+    position: relative;
+    top: 20%;
+    color: white;
+    background-color: #3a3e43;
+    border-radius: 50%;
+    padding: 10px;
+    text-decoration: none; }
+    .backfooters a:hover {
+      text-decoration: none;
+      color: orangered; }
+    .backfooters a::before {
+      margin: 0; }
 
 .catagories {
-  font-size: 11px;
-  letter-spacing: -1x; }
-  .catagories li {
-    border-bottom: 1px solid rgba(146, 145, 145, 0.1);
-    padding-bottom: 20px;
-    padding-top: 10px; }
-
-.popupost {
   font-size: 12px;
   letter-spacing: -1x;
-  text-transform: capitalize; }
+  font-weight: bolder; }
+  .catagories li {
+    border-bottom: 1px solid rgba(146, 145, 145, 0.1);
+    padding-bottom: 8%;
+    padding-top: 7%; }
+
+.popupost {
+  font-size: 13px;
+  letter-spacing: -1x;
+  text-transform: capitalize;
+  font-weight: bolder; }
   .popupost li {
     padding-top: 10px;
     padding-bottom: 15px; }
-    .popupost li a img {
-      margin-right: 10px;
-      width: 80px;
-      height: 60px; }
+    .popupost li a {
+      display: flex;
+      overflow: hidden; }
+      .popupost li a img {
+        margin-right: 10px;
+        width: 30%; }
 
 .instagram {
   padding-top: 10px;
@@ -244,7 +262,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap; }
   .instagram img {
-    padding: 2px;
+    padding: 3px;
     width: 33.33%; }
 
 /*

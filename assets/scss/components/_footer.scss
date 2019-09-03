@@ -10,7 +10,7 @@ footer{
     display: flex;
     flex-direction: row;
     color: white;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     a{
         vertical-align: top;
         text-decoration: none;
@@ -22,6 +22,7 @@ footer{
     h4{
         text-indent: 16px;
         font-size: 12px;
+        font-weight: bolder;
         text-transform: uppercase;
         color: lightgrey;   }
     }
@@ -31,32 +32,56 @@ footer{
     flex-direction: row;
     text-align: right;
     height: 100px;
+    
+    a{
+        position: relative;
+        top: 20%;
+        color: white;
+        background-color: $first-color;
+        border-radius: 50%;
+        padding: 10px;
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+            color: orangered;}
+        &::before {
+            margin: 0;
+            }
+    
+    }
 }
 
+
 .catagories{
-    font-size: 11px;
+    font-size: 12px;
     letter-spacing: -1x;
+    font-weight: bolder;
     li{
         border-bottom: 1px solid rgba($color: #929191, $alpha: 0.1);
-        padding-bottom: 20px;
-        padding-top: 10px;
+        padding-bottom: 8%;
+        padding-top: 7%;
     }
    
 }
 
 .popupost{
-font-size: 12px;
+font-size: 13px;
 letter-spacing: -1x;
 text-transform: capitalize;
+font-weight: bolder;
     li{
         padding-top: 10px;
         padding-bottom: 15px;
         a{
+            display: flex;
+            overflow: hidden;
             img {
-            margin-right: 10px;
-            width: 80px;
-            height: 60px;
+                margin-right: 10px;
+                width: 30%;
                 }
+            p{
+                
+            }
          }
         }   
         }
@@ -67,7 +92,7 @@ text-transform: capitalize;
     flex-direction: row;
     flex-wrap: wrap;
     img{
-        padding: 2px;
+        padding: 3px;
         width: 33.33%;
     }
 }
