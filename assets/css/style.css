@@ -256,13 +256,6 @@ body {
     color: #3a3e43;
     padding-top: 15px;
     padding-bottom: 15px; }
-  .home-sec-section a {
-    display: flex;
-    align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    text-decoration: none;
-    color: grey; }
   .home-sec-section i {
     width: 32px;
     height: 32px;
@@ -270,7 +263,6 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 3px;
-    background-color: white;
     border-radius: 50%;
     border: 1px solid #c1c1c1;
     text-decoration: none; }
@@ -278,20 +270,53 @@ body {
       font-size: 15px;
       margin-left: 0;
       color: black; }
-  .home-sec-section i.sideBar {
-    width: 100%;
-    border-radius: 0;
-    justify-content: flex-start;
-    background-color: blue;
-    border: 0;
-    padding-left: 10px;
-    color: white; }
-    .home-sec-section i.sideBar:before {
-      color: white; }
-  .home-sec-section .facebook {
-    background-color: blue;
-    color: white;
-    padding-right: 10px; }
+  .home-sec-section .sideBar-socialNetwork {
+    margin-top: 90px;
+    margin-bottom: 90px; }
+    .home-sec-section .sideBar-socialNetwork a.social-media {
+      color: white;
+      padding-right: 10px; }
+    .home-sec-section .sideBar-socialNetwork a.facebook {
+      background-color: #8c92cf; }
+    .home-sec-section .sideBar-socialNetwork a.twitter {
+      background-color: #50d0f7; }
+    .home-sec-section .sideBar-socialNetwork a.instagram {
+      background-color: #6f96bf; }
+    .home-sec-section .sideBar-socialNetwork a {
+      margin-bottom: 2px;
+      display: flex;
+      align-items: center;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+      text-decoration: none;
+      color: grey; }
+      .home-sec-section .sideBar-socialNetwork a i {
+        height: 45px;
+        border-radius: 0;
+        justify-content: flex-start;
+        border: 0;
+        padding-left: 10px;
+        color: white; }
+        .home-sec-section .sideBar-socialNetwork a i:before {
+          color: white;
+          font-size: 16px; }
+      .home-sec-section .sideBar-socialNetwork a span {
+        width: 50%;
+        text-transform: capitalize; }
+      .home-sec-section .sideBar-socialNetwork a .follow-us {
+        text-transform: uppercase;
+        text-align: right;
+        font-weight: 800;
+        width: 50%; }
+  .home-sec-section a {
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: grey; }
+    .home-sec-section a .facebook {
+      background-color: #8c92cf; }
   .home-sec-section li {
     width: 36px;
     height: 36px;
