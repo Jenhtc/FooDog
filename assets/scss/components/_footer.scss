@@ -37,7 +37,7 @@ footer{
     font-size: 11px;
     letter-spacing: -1x;
     li{
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid rgba($color: #929191, $alpha: 0.1);
         padding-bottom: 20px;
         padding-top: 10px;
     }
@@ -63,9 +63,11 @@ text-transform: capitalize;
 
 .instagram{
     padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     img{
-        margin: 2px;
-        width: 80px;
-        height: 80px;
+        padding: 2px;
+        width: 33.33%;
     }
 }
