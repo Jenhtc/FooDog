@@ -166,6 +166,21 @@
   }
   .card-bloc {
     flex-direction: column;
+    .resize-img {
+      max-height: 225px;
+    }
+  }
+
+  .content {
+    .img-fluid {
+      width: 100%;
+    }
+  }
+
+  .resize-img {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
   }
 
   .sideBar {
@@ -173,10 +188,24 @@
       width: 100%;
     }
   }
-  .resize-img {
-    max-height: 190px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .home-sec-section {
+    .sideBar {
+      order: 1;
+      .resize-img {
+        align-items: flex-start;
+        max-height: 225px;
+        margin-bottom: 30px;
+      }
+
+      .sideBar-socialNetwork {
+        margin: 50px 0;
+      }
+    }
+    .content {
+      order: 2;
+    }
   }
 }

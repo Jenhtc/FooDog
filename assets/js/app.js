@@ -17,7 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     navMenu.addEventListener("mouseleave", closeNav);
 
-    iconMenu.addEventListener("mouseover", openNav);
+    iconMenu.addEventListener("click", function() {
+      if (header.classList.contains("visible")) closeNav();
+      else openNav();
+    });
   }
 
   // SEARCH BOX

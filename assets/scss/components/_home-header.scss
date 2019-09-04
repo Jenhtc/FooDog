@@ -74,7 +74,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .home-header {
     .right {
       order: 2;
@@ -88,6 +88,22 @@
       ul {
         li {
           margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home-header {
+    nav {
+      ul {
+        flex-direction: column;
+
+        li {
+          text-align: center;
+          margin: 0;
+          padding-bottom: 10px;
         }
       }
     }

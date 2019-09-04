@@ -21,10 +21,6 @@
         align-items: center;
         cursor: pointer;
 
-        &:hover .icon {
-          color: $third-color;
-        }
-
         .icon {
           width: 16px;
           height: 13px;
@@ -119,14 +115,10 @@
         margin-right: 30px;
 
         .icon {
-          height: 12px;
+          height: 18px;
           &:before {
             font-size: 12px;
           }
-        }
-
-        input {
-          margin-top: -12px;
         }
       }
     }
@@ -151,9 +143,11 @@
     ul {
       display: flex;
       align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
 
       li {
-        margin-right: 30px;
+        padding: 15px;
 
         a {
           color: #000;
@@ -168,7 +162,44 @@
     }
   }
 
-  &.visible nav {
-    bottom: -63px;
+  &.visible {
+    nav {
+      bottom: auto;
+    }
+
+    .menu .icon {
+      color: $third-color;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .article-header .top-menu {
+    .signup {
+      display: none;
+    }
+
+    .left {
+      width: 25%;
+    }
+    .right {
+      width: 75%;
+    }
+  }
+}
+
+@media screen and (max-width: 455px) {
+  .article-header .top-menu {
+    .left,
+    .right {
+      width: 50%;
+    }
+
+    .author {
+      display: none;
+    }
+    .search-box {
+      border-left: none;
+    }
   }
 }

@@ -38,9 +38,27 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+#scrollTop {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #4a4b4c;
+  z-index: 1;
+  padding: 9px;
+  border-radius: 3px;
+
+  text-decoration: none;
+
+  &::before {
+    color: #fff;
+    font-size: 17px;
+  }
+}
+
 // Layouts
 @import "./layouts/index";
 @import "./layouts/article";
+@import "./layouts/nutrition";
 
 // Global Components
 @import "./components/search-box";
