@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
       header.classList.remove("visible");
     };
 
-    navMenu.addEventListener("mouseleave", closeNav);
+    // navMenu.addEventListener("mouseleave", closeNav);
 
     iconMenu.addEventListener("click", function() {
       if (header.classList.contains("visible")) closeNav();
